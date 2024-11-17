@@ -1,0 +1,44 @@
+.main-banner {
+    background: radial-gradient(79.93% 251.58% at 23.18% 73.07%, #0142a0 0, #0f133a 44.41%, #101034 56.43%, #141034 69.58%, #301436 100%, #411958 0);
+    color: white;
+    padding: 3rem 1rem 3rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 1200px;
+        margin: auto;
+    }
+}
+
+.title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.5rem;
+}
+
+.description {
+    font-size: 0.8rem;
+}
+
+.line-2 {
+    color: orange;
+}
+
+.content {
+    padding-top: 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .content {
+        padding-top: 3rem;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .title {
+        font-size: 2rem;
+    }
+}
